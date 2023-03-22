@@ -1,0 +1,21 @@
+body{
+    background: var(--primary-bg);
+    font-size: $font14;
+    font-family: 'lato' ,sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+// common
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+.container{
+    width: 1280px;
+    margin: auto;
+}

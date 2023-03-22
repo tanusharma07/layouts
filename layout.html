@@ -1,0 +1,796 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>techmax</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap"rel="stylesheet"/>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link
+    rel="stylesheet"
+    type="text/css"
+    href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+  />
+    </head>
+    <style>
+      .slick-next{
+        position: absolute;
+        bottom: 0;
+    left: 661px;
+      }
+      .slick-dots {
+	display: flex; 
+    	justify-content: center;
+	margin: auto;
+padding: 10px 0;
+	 	list-style: none;
+     position: absolute;
+    bottom: -33px;
+    left: 565px;
+    }
+    .slick-dots li{
+      margin-left: 10px;
+    } 	
+	
+	button {
+     			display: block;
+ 			width: 10px;
+ 			height: 10px;
+ 			padding: 0;
+ 			font-size: 0;
+ 			border: none;
+			border-radius: 50%;
+ 			background-color: black;
+            text-decoration: none;
+			
+		}
+	li.slick-active button {
+ 			background-color: blue;
+		}
+        ul{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+                   }
+    </style>
+  <body>
+    <!--start-header-->
+      <header class="header">
+        <div class="container">
+          <div class="panel">
+        <div class="logo">
+          <a href="#">
+            <img src="./image/logo.png" alt="logo" />
+          </a>
+        </div>
+        <nav class="menu">
+          <ul>
+            <li>
+              <a href="#">Home</a>
+            </li>
+            <li>
+              <a href="#">About Us</a>
+            </li>
+            <li>
+              <a href="#">Services<img src="./image/down-arrow.png" alt=""></a>
+              <ul class="sub-menu">
+                <li>
+                  <a href="#">Services</a>
+                </li>
+                <li>
+                  <a href="#">Service Details</a>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <a href="#">Pages<img src="./image/down-arrow.png" alt="" /></a>
+              <ul class="sub-menu">
+                <li>
+                  <a href="#">Projects</a>
+                </li>
+                <li>
+                  <a href="#">Projects Details</a>
+                </li>
+                <li>
+                  <a href="#">Pricing</a>
+                </li>
+                <li>
+                  <a href="#">FAQ</a>
+                </li>
+                <li>
+                  <a href="#">Coming Soon</a>
+                </li>
+                <li>
+                  <a href="#">Terms & Conditions</a>
+                </li>
+                <li>
+                  <a href="#">Privacy Policy</a>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <a href="#">Blog<img src="./image/down-arrow.png" alt="" /></a>
+              <ul class="sub-menu">
+                <li>
+                  <a href="#">Blog Grid</a>
+                </li>
+                <li>
+                  <a href="#">Blog Details</a>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <a href="#">Contact</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="header-button">
+          <a href="#" class="btn-one">Login
+            <div class="humbger-menu">
+              <img src="./image/menu.png" alt="">
+            </div>
+            <div class="mobile-menu">
+              <div class="mobmenu-top">
+                <a href="#">
+                  <img src="./image/logo.png" alt="logo" />
+                </a>
+                <div class="close">
+                  &times;
+                </div>
+              </div>
+                <ul>
+                  <li>
+                      <a href="">Home</a>
+                  </li>
+                  <li>
+                      <a href="">Shop</a>
+                  </li>
+                  <li>
+                      <a href="">Blog</a>
+                  </li>
+                  <li>
+                      <a href="">About us</a>
+                  </li>
+                  <li>
+                      <a href="">Contact us</a>
+                  </li>
+                </ul>
+            </div>
+            <div class="overlay"></div>
+          </a>
+
+        <a class="btn-two" href="#">Get Quotes</a>
+      </div>
+
+
+        <div class="humbger-menu">
+          <img src="./image/menu.png" alt="">
+        </div>
+        <div class="mobile-menu">
+          <div class="mobmenu-top">
+            <a href="#">
+              <img src="./image/logo.png" alt="logo" />
+            </a>
+            <div class="close">
+              &times;
+            </div>
+          </div>
+            <ul>
+              <li>
+                  <a href="">Home</a>
+              </li>
+              <li>
+                  <a href="">Shop</a>
+              </li>
+              <li>
+                  <a href="">Blog</a>
+              </li>
+              <li>
+                  <a href="">About us</a>
+              </li>
+              <li>
+                  <a href="">Contact us</a>
+              </li>
+            </ul>
+        </div>
+        <div class="overlay"></div>
+        
+      </div>
+    </div>
+  </header>
+  <!--end-header-->
+  
+
+    <!--start-slider-->
+    <div class="container">
+      <div class="slider">
+        <div class="slider-detail">
+          <h1>
+            Encourage innovation with trusted
+            <span>Technology Solutions</span>
+          </h1>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua, magna
+            aliqua. ipsum is simply dummy text of the printing.
+          </p>
+          <div class="slider-button">
+            <a class="slider-btn" href="#">Learn More</a>
+            <a class="slider-btn-one" href="#">Contact Us</a>
+          </div>
+        </div>
+        <div class="slider-image">
+          <img src="./image/slider.png" alt="image" />
+        </div>
+      </div>
+    </div>
+    <!--end-slider-->
+    <!--start-categaries-->
+    <div class="container">
+      <div class="categaries">
+        <ul>
+          <li>
+            <div class="image"><img src="./image/share.png" alt="img" /></div>
+            <h3>IT Solution</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt dolore magna aliqua
+            </p>
+            <a href="#" class="card-btn">Read More</a>
+          </li>
+          <li>
+            <div class="image">
+              <img src="./image/card-one.png" alt="img" />
+            </div>
+            <h3>Web Development</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt dolore magna aliqua
+            </p>
+            <a href="#" class="card-btn">Read More</a>
+          </li>
+          <li>
+            <div class="image"><img src="./image/share.png" alt="img" /></div>
+            <h3>Networking Services</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt dolore magna aliqua
+            </p>
+            <a href="#" class="card-btn">Read More</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="website-solution">
+      <div class="container">
+        <div class="solution">
+          <div class="left-panel">
+            <h3>Creating Website Solutions</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+            <ul class="features">
+              <li>
+                <span>
+                  E-Commerce Development</span>
+              </li>
+              <li>
+                <span>WordPress Development</span>
+              </li>
+              <li>
+                <span>Page Speed Optimization</span>
+              </li>
+              <li>
+                <span>Web Design</span>
+              </li>
+              <li>
+                <span>Network Monitoring</span>
+              </li>
+              <li>
+                <span>Shopify Development</span>
+              </li>
+            </ul>
+          </div>
+          <div class="right-panel">
+            <img src="./image/choose.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="website-business">
+      <div class="container">
+        <div class="solution">
+          <div class="right-panel">
+            <img src="./image/choose-one.png" alt="" />
+          </div>
+          <div class="left-panel">
+            <h3>Tech Soul for your Business</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+            <ul class="features">
+              <li>
+                <span>Discovery & Strateg</span>
+              </li>
+              <li>
+                <span>iOS apps (Swift)</span>
+              </li>
+              <li>
+                <span>Managed IT Service</span>
+              </li>
+              <li>
+                <span>UX/UI Design</span>
+              </li>
+              <li>
+                <span>Android apps (Java)</span>
+              </li>
+              <li>
+                <span>Cloud Services</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <section class="rating">
+      <div class="over-lay"></div>
+      <div class="container">
+        <ul>
+          <li class="number">
+            <span>23+</span>
+            <p>Years of Experience</p>
+          </li>
+          <li class="number">
+            <span>500</span>
+            <p> Complete Projects</p>
+          </li>
+          <li class="number">
+            <span>100+</span>
+            <p>Employees</p>
+          </li>
+          <li class="number">
+            <span>300+</span>
+            <p>5 Star Rating</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <div class="container">
+      <div class="expert">
+        <h3>Expert Team Member</h3>
+        <div class="card-wrapper">
+          <ul class="multiple-items">
+            <li>
+              <img src="./image/team-1.jpg" alt="" />
+              <div class="overlay-three">
+                <div class="social-icon">
+                  <a href="#"><img src="./image/facebook.png"></a>
+                <a href="#"><img src="./image/instagram.png"></a>
+                <a href="#"><img src="./image/twitter.png"></a>
+                </div>
+
+              </div>
+              <div class="detail">
+                <name>Lewis Lucas</name>
+                <position>IT Manager</position>
+              </div>
+            </li>
+            <li>
+              <img src="./image/team-2.jpg" alt="" />
+              <div class="overlay-three">
+                <div class="social-icon">
+                  <a href="#"><img src="./image/facebook.png"></a>
+                <a href="#"><img src="./image/instagram.png"></a>
+                <a href="#"><img src="./image/twitter.png"></a>
+                </div>
+              </div>
+              <div class="detail">
+                <name>Arturo Fuller</name>
+                <position> Service Manager</position>
+              </div>
+            </li>
+            <li>
+              <img src="./image/team-3.jpg" alt="" />
+              <div class="overlay-three">
+                <div class="social-icon">
+                  <a href="#"><img src="./image/facebook.png"></a>
+                <a href="#"><img src="./image/instagram.png"></a>
+                <a href="#"><img src="./image/twitter.png"></a>
+                </div>
+              </div>
+              <div class="detail">
+                <name> Velma Cain </name>
+                <position>Managing Director</position>
+              </div>
+            </li>
+            <li>
+              <img src="./image/team-4.jpg" alt="" />
+              <div class="overlay-three">
+                <div class="social-icon">
+                  <a href="#"><img src="./image/facebook.png"></a>
+                <a href="#"><img src="./image/instagram.png"></a>
+                <a href="#"><img src="./image/twitter.png"></a>
+                </div>
+              </div>
+              <div class="detail">
+                <name>Marc Gibbs</name>
+                <position>Executive Assistant</position>
+              </div>
+            </li>
+            <li>
+              <img src="./image/team-4.jpg" alt="" />
+              <div class="overlay-three">
+                <div class="social-icon">
+                  <a href="#"><img src="./image/facebook.png"></a>
+                <a href="#"><img src="./image/instagram.png"></a>
+                <a href="#"><img src="./image/twitter.png"></a>
+                </div>
+              </div>
+              <div class="detail">
+                <name>Marc Gibbs</name>
+                <position>Executive Assistant</position>
+              </div>
+            </li>
+            <li>
+              <img src="./image/team-4.jpg" alt="" />
+              <div class="overlay-three">
+                <div class="social-icon">
+                  <a href="#"><img src="./image/facebook.png"></a>
+                <a href="#"><img src="./image/instagram.png"></a>
+                <a href="#"><img src="./image/twitter.png"></a>
+                </div>
+              </div>
+              <div class="detail">
+                <name>Marc Gibbs</name>
+                <position>Executive Assistant</position>
+              </div>
+            </li>
+            <li>
+              <img src="./image/team-4.jpg" alt="" />
+              <div class="overlay-three">
+                <div class="social-icon">
+                  <a href="#"><img src="./image/facebook.png"></a>
+                <a href="#"><img src="./image/instagram.png"></a>
+                <a href="#"><img src="./image/twitter.png"></a>
+                </div>
+              </div>
+              <div class="detail">
+                <name>Marc Gibbs</name>
+                <position>Executive Assistant</position>
+              </div>
+            </li>
+            <li>
+              <img src="./image/team-4.jpg" alt="" />
+              <div class="overlay-three">
+                <div class="social-icon">
+                  <a href="#"><img src="./image/facebook.png"></a>
+                <a href="#"><img src="./image/instagram.png"></a>
+                <a href="#"><img src="./image/twitter.png"></a>
+                </div>
+              </div>
+              <div class="detail">
+                <name>Marc Gibbs</name>
+                <position>Executive Assistant</position>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="testimonial">
+      <div class="container">
+        <h3>Our Client Say</h3>
+        <div class="testi-card">
+          <ul>
+            <li>
+              <div class="star">
+                <img src="./image/star.png" alt="">
+                <img src="./image/star.png" alt="">
+                <img src="./image/star.png" alt="">
+                <img src="./image/star.png" alt="">
+                <img src="./image/star.png" alt="">
+              </div>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
+                ut labore et dolore magna aliqua. enim ad minim veniam, quis nostrud exercitation.</p>
+                <img src="./image/team-1.jpg" alt="">
+                <div class="testi-detail">
+                <name>Stanley Tate</name>
+                <position>Web Developer</position></div>
+            </li>
+            <li>
+              <div class="star">
+                <img src="./image/star.png" alt="">
+                <img src="./image/star.png" alt="">
+                <img src="./image/star.png" alt="">
+                <img src="./image/star.png" alt="">
+                <img src="./image/star.png" alt="">
+              </div>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
+                ut labore et dolore magna aliqua. enim ad minim veniam, quis nostrud exercitation.</p>
+                <img src="./image/team-2.jpg" alt="">
+                <div class="testi-detail">
+                <name>Mario Houston</name>
+                <position>Social Worker</position></div>
+            </li>
+            <li>
+              <div class="star">
+                <img src="./image/star.png" alt="">
+                <img src="./image/star.png" alt="">
+                <img src="./image/star.png" alt="">
+                <img src="./image/star.png" alt="">
+                <img src="./image/star.png" alt="">
+              </div>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
+                ut labore et dolore magna aliqua. enim ad minim veniam, quis nostrud exercitation.</p>
+                <img src="./image/team-3.jpg" alt="">
+                <div class="testi-detail">
+                <name>Lana Shelton</name>
+                <position>Architect</position></div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+     <section class="rating-one">
+        <div class="over-lay-one"></div>
+        <div class="container">
+            <div class="detail">
+          <h4>Have a project in mind</h4>
+           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud consectetur</p>
+            <a href="#">Contact Us</a></div>
+        </div>
+      </section>
+      <div class="article">
+        <h3>Recent Blog & Article</h3>
+        <div class="container">
+          <div class="article-card">
+            <ul>
+              <li>
+                <img src="./image/blog-1.jpg" alt="">
+                <div class="article-detail">
+                <a href="#"><h4>The Biggest Trends in Technology We've Seen This Year</h4></a>
+                <p>Lorem ipsum dolor sit amet, consectetur
+                  adipiscing elit, sed eiusmod tempor
+                  incididunt</p>
+                  <a href="#" class="article-btn">Continue Reading</a></div>
+              </li>
+              <li>
+                <img src="./image/blog-2.jpg" alt="">
+                <div class="article-detail">
+                <a href="#"><h4>The Biggest Trends in Technology We've Seen This Year</h4></a>
+                <p>Lorem ipsum dolor sit amet, consectetur
+                  adipiscing elit, sed eiusmod tempor
+                  incididunt</p>
+                  <a href="#" class="article-btn">Continue Reading</a></div>
+              </li>
+              <li>
+                <img src="./image/blog-3.jpg" alt="">
+                <div class="article-detail">
+                <a href="#"><h4>The Biggest Trends in Technology We've Seen This Year</h4></a>
+                <p>Lorem ipsum dolor sit amet, consectetur
+                  adipiscing elit, sed eiusmod tempor
+                  incididunt</p>
+                  <a href="#" class="article-btn">Continue Reading</a></div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="partners">
+        <div class="container">
+          <ul>
+            <li>
+              <a href="#"><img src="./image/partner-one.jpg" alt="partner"></a>
+            </li>
+            <li>
+              <a href="#"><img src="./image/partner-two.jpg" alt="partner"></a>
+            </li>
+            <li>
+              <a href="#"><img src="./image/partner-three.jpg" alt="partner"></a>
+            </li>
+            <li>
+              <a href="#"><img src="./image/partner-four.jpg" alt="partner"></a>
+            </li>
+            <li>
+              <a href="#"><img src="./image/partner-five.jpg" alt="partner"></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!--start-footer-->
+      <footer>
+        <section class="footer-image">
+          <div class="over-lay-two"></div>
+          <div class="container">
+            <div class="footer">
+              <div class="footer-heading">
+            <h4>About Us</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing
+              elit, sed do eiusmod tempor incididunt ut labore et
+              dolore magna aliqua. Ut enim ad minim veniam, quis
+              nostrud exercitation ullamco consectetur laboris.</p>
+              <ul>
+                <li>
+                  <a href="#"><img src="./image/facebook.png" alt="facebook"></a>
+                </li>
+                <li>
+                  <a href="#"><img src="./image/twitter.png" alt="twitter"></a>
+                </li>
+                <li>
+                  <a href="#"><img src="./image/pintrest.png" alt="pintrest"></a>
+                </li>
+                <li>
+                  <a href="#"><img src="./image/instagram.png" alt="instagram"></a>
+                </li>
+              </ul>
+            </div>
+              <div class="our-service">
+            <h4>Our Services</h4>
+              <ul>
+                <li>
+                  <a href="#">IT Solution</a>
+                </li>
+                <li>
+                  <a href="#">Web Development</a>
+                </li>
+                <li>
+                  <a href="#">Networking Services</a>
+                </li>
+                <li>
+                  <a href="#">SEO Optimization</a>
+                </li>
+                <li>
+                  <a href="#">App Optimization</a>
+                </li>
+              </ul>
+            </div>
+            <div class="our-service">
+              <h4>Quick Links</h4>
+                <ul>
+                  <li>
+                    <a href="#">About Us</a>
+                  </li>
+                  <li>
+                    <a href="#">Case Study</a>
+                  </li>
+                  <li>
+                    <a href="#">Contact Us</a>
+                  </li>
+                  <li>
+                    <a href="#">Privacy Policy</a>
+                  </li>
+                  <li>
+                    <a href="#">Terms & Conditions</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="contact">
+                <h4>Contact Information</h4>
+                  <ul>
+                    <li>
+                      <a href="tel:0802235678">Phone: +000 313 577111</a>
+                    </li>
+                    <li>
+                      <a href= "mailto:demo@example">Email: demo@example.com</a>
+                    </li>
+                    <li>
+                      <a href="#">Address: 4035 Heavens, Los Angeles, California</a>
+                    </li>
+                   <li class="input">
+                      <div class="input-holder">
+                        <input type="text"  placeholder="Enter Your Email">
+                    </div>
+                    <div class="input-subscribe">
+                        <a href="#">Subscribe</a>
+                    </div>
+                  </li>
+                  </ul>
+                </div>
+            </div>
+          </div>
+        </footer>
+        <div class="black-strip">
+          <div class="container">
+            <div class="text">
+          <p>@2022 Techmax - All Rights Reserved.
+          </p>
+          <div class="right-panel">
+              <a href="#">Terms & Condition</a>
+              <a href="#">Privacy Policy</a></div>
+            </div>
+            </div>
+        </div>
+      <!--end-footer-->
+      <!-- popup -->
+      <div class="overlay-five"></div>
+      <div class="popup">
+          <div class="close-one">&times;</div>
+          <div class="login-box">
+              <div>
+                  <div class="login-detail">
+                      <h1>Login</h1>
+                      <p>Login using email and password</p>
+                  </div>
+                  <div class="names">
+                  <div class="name">
+                      <label>first Name</label>
+                      <input type="email" name="name" placeholder="first name">
+                  </div>
+                  <div class="name">
+                      <label>Last Name</label>
+                      <input type="email" name="name" placeholder="last name">
+                  </div></div>
+                  <div>
+                      <label>Email or Phone</label>
+                      <input type="email" name="name" placeholder="Please Enter Email or Phone">
+                  </div>
+                  <div>
+                      <label>Password</label>
+                      <input type="password" name="name" placeholder="Please Enter Password">
+                  </div>
+                  <a class="login-btn" href="#">Login</a>
+                  <p>Don't have account? <a href="#">Sign up</a></p>
+              </div>
+          </div>
+      </div>
+      <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+      <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
+      <script type="text/javascript">
+        $(document).ready(function () {
+          $(".multiple-items").slick({
+          infinite: true,
+          slidesToShow: 4,
+          slidesToScroll: 1,
+          autoplay: true,
+          autoplaySpeed: 1000,
+          arrows: true,
+          nextArrow:"<button type='button' 4 class='slick-next'></button>",
+          dots: true,
+        });
+
+
+          $(".humbger-menu").click(function () {
+            $('.mobile-menu').show('slide, right, 500');
+            $('.overlay').show('slide, right, 500');
+            $('body').addClass('.hidden')
+          });
+          $(".close, .overlay").click(function () {
+            $('.mobile-menu').hide('slide, right, 500');
+            $('.overlay').hide('slide, right, 500');
+            $('body').addClass('.hidden')
+          });
+        });
+          $(".btn-one").click(function(){
+            $(".box").hide();
+          });
+          $(".btn-one").click(function(){
+            $(".box").show();
+          });
+          $('.btn-one').click(function(){
+                $('.popup, .overlay-five').fadeIn(500)
+            })
+            $('.popup .close-one, .overlay-five').click(function(){
+                $('.popup, .overlay-five').fadeOut(300)
+            })
+            $('.menu li > .sub-menu').parent().click(function(){
+                var submenu = $(this).children('.sub-menu');
+                if ( $(submenu).is(':hidden') ) {
+                    $('.sub-menu').slideUp(200);
+                    $(submenu).slideDown(200);
+                } else {
+                    $(submenu).slideUp(200);
+                }
+            })
+      </script>
+  </body>
+</html>

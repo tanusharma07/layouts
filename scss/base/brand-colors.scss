@@ -1,0 +1,38 @@
+:root {
+  --primary-bg: #fff;
+  --secondary-bg:rgb(0, 0, 0, 0.08);
+  --primary-text: #000;
+  --primary-p-text:#5F5F5F;
+  --secondary-text: #fff;
+  --secondary-btn-text:#5E87EB;
+  --primary-text-hover:#fff;
+  --secondary-hover:#604AE3;
+  --primary-btn-bg:#5E87EB;
+  --primary-a-text:#604AE3;
+  --primary-image:#F2F2F2;
+  --background-image: linear-gradient(-135deg, #611bdd 0%, #5e87eb 100%);
+  --gray-color:  #505060;
+}
+
+a{
+  text-decoration: none;
+}
+// Varible
+$font12: 12px;
+$font14: 14px;
+$font16: 16px;
+$font18: 18px;
+$font20: 20px;
+$font28: 28px;
+$font44: 44px;
+$font54: 54px;
+$font32: 32px;
+$font36: 36px;
+
+
+
+//width
+$width: 100%;
+// height
+$height: 100%;
+$width100vh: 100vh;
